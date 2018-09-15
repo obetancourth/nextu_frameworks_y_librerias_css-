@@ -1,0 +1,40 @@
+body {
+    background-image: url('../img/bs.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section h2 {
+    font-size: 1.8rem;
+}
+
+section h3 {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+section img {
+    width: 100%;
+}
+
+section p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.grid-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 1.3rem;
+}
+
+@media (min-width:720px) {
+    body {
+        background-image: url('../img/bm.jpg');
+    }
+}
+
+@media (min-width:1300px) {
+    body {
+        background-image: url('../img/bl.jpg');
+    }
+}
