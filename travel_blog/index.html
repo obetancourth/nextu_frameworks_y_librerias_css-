@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Turísmo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <style>
+        body {
+            background-image: url("img/background_small.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 0.8em;
+        }
+        
+        .sw {
+            width: 100%;
+        }
+        
+        .sw li {
+            min-width: 100%;
+        }
+        
+        .sw li a {
+            display: inline-block;
+            width: 90% !important;
+        }
+        
+        @media (min-width:720px) {
+            body {
+                background-image: url("img/background_medium.jpg");
+            }
+            .sw li {
+                min-width: 25%;
+            }
+            .sw li a {
+                display: inline-block;
+                width: 90% !important;
+            }
+        }
+        
+        @media(min-width:1300px) {
+            body {
+                background-image: url("img/background_large.jpg");
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="card z-depth-2">
+        <div class="row ">
+            <div class="col s12 m4 l3 center-align">
+                <img src="img/logo.svg" style="width:80%;" alt="Logo de Blog de Turísmo" />
+            </div>
+            <div class="col s12 m8 l9" style="padding-top:2em;">
+                <nav class="white lighten-1 z-depth-0" style="height: initial; overflow: auto;">
+                    <div class="nav-wrapper">
+                        <ul class="right sw">
+                            <li><a class="black-text brown lighten-3 accent-2 waves-effect waves-light btn-large">Inicio</a></li>
+                            <li><a class="black-text brown lighten-3 accent-2 waves-effect waves-light btn-large">Estuve Aquí</a></li>
+                            <li><a class="black-text brown lighten-3 accent-2 waves-effect waves-light btn-large">Mejores Viajes</a></li>
+                            <li><a class="black-text brown lighten-3 accent-2 waves-effect waves-light btn-large">Recomendaciones</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <h1 style="font-size: 2.2rem">¡La mejor forma de conocer ... es viajar!</h1>
+            </div>
+        </div>
+    </header>
+    <main style="padding:1.5rem;padding-top:3rem;">
+        <div class="row">
+            <div class="col s12 m1 hide-on-small-only center-align">
+                <img src="img/facebook.png" alt="facebook" />
+                <img src="img/twitter.png" alt="twitter" />
+                <img src="img/instagram.png" alt="instagram" />
+                <img src="img/tumbler.png" alt="tumbler" />
+                <img src="img/pinterest.png" alt="pinterest" />
+            </div>
+            <div class="col s12 m11">
+                <div class="col s12 m4">
+                    <img class="responsive-img z-depth-2" src="img/cairo_egypt.jpg" alt="Pirámide de Gyza, Cairo Egipto" />
+                    <img class="responsive-img z-depth-2" src="img/cerdenia_italia.jpg" alt="Isla de Cerdeña, Italia" />
+                </div>
+                <div class="col s12 m4">
+                    <img class="responsive-img z-depth-2" src="img/bigben.jpg" alt="Big Ben Londres, Inglaterra" />
+                </div>
+                <div class="col s12 m4">
+                    <img class="responsive-img z-depth-2" src="img/coliseon_de_roma_italia.jpg" alt="Coliseum de Roma, Italia" />
+                    <img class="responsive-img z-depth-2" src="img/travel_sign.jpg" alt="Destinos Del Mundo Señas en la Playa" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m8 l9">
+                <article class="card">
+                    <div class="card-content">
+                        <header>
+                            <span class="card-title">Paris en al Noche</span>
+                            <span class="chip"><i class="tiny material-icons">schedule</i>&nbsp 2018-10-15</span>
+                            <span class="chip"><i class="tiny material-icons">person</i>&nbsp Orlando J Betancourth</span>
+                        </header>
+                        <section class="row">
+                            <div class="col s12 m4">
+                                <img class="responsive-img" src="img/paris_francias.jpg" alt="Paris de Noche" />
+                            </div>
+                            <div class="col s12 m8">
+                                <p>
+                                    Con sus bares, sus discotecas, sus salas de conciertos o sus cabarets, la ciudad ofrece una amplia variedad de ambientes y satisface los gustos de todos los noctámbulos. De la velada jazzística al festival de rock pasando por la terraza de café o el after
+                                    electrónico, descubre todos los sitios para salir de fiesta en París y vivir momentos inolvidables al caer la noche en todos los rincones de la capital francesa.
+                                </p>
+                            </div>
+                            <div class="col s12 m12">
+                                <p>
+                                    Su reputación ha dado la vuelta al mundo, el punto de encuentro ideal, te espera una calurosa acogida. Sólo el nombre evoca el pasado, el romance y la historia. París ha sido un centro cultural y artístico relevante en la historia occidental. La arquitectura
+                                    gótica tuvo su origen en la región de París. Originalmente fue un jardín y se ha convertido en gran avenida-paseo que conecta el Arco del Triunfo con la Plaza de la Concordia.
+                                </p>
+                            </div>
+                        </section>
+                        <footer class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Nombre</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="icon_email" type="email" class="validate">
+                                        <label for="icon_email">Correo Electrónico</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s10">
+                                        <i class="material-icons prefix">comment</i>
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">Comentario</label>
+                                    </div>
+                                    <div class="col s2 center-align">
+                                        <a class="btn-floating btn-large waves-effect waves-light brown lighten-3"><i class="material-icons">add</i></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </footer>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-content">
+                        <header>
+                            <span class="card-title">Deseo: Pasear en Bicicleta en la Gran Muralla China</span>
+                            <span class="chip"><i class="tiny material-icons">schedule</i>&nbsp 2018-10-17</span>
+                            <span class="chip"><i class="tiny material-icons">person</i>&nbsp Orlando J Betancourth</span>
+                        </header>
+                        <section class="row">
+                            <div class="col s12 m4">
+                                <img class="responsive-img" src="img/china_wall.jpg" alt="Gran Muralla China" />
+                            </div>
+                            <div class="col s12 m8">
+                                <p>
+                                    Muchos dicen que debajo de la gran muralla china descansa centenares de obreros que dieron su vida para la edificación de una de las estructuras mas grandes y antiguas de la historia. En la asignatura de geografía del primero de ciclo común se nos enseño
+                                    que esta era la unica estructura hecha por el humano que se podía observar desde el espacio exterior. Definitivamente una gran muestra de la capacidad del ser humano.
+                                </p>
+                                <p>Es tal su magnificencia que en varias peliculas es objeto de inspiración como ser Karate Kid el Make Over de Jakee Chan con Smith, entre muchas otras.</p>
+                            </div>
+                            <div class="col s12 m12">
+                                <p>
+                                    Desde pequeño es un sueño que no he dejado de perseguir y es de poder pasear utopicamente en bicicleta por los senderos de la Gran Muralla China, ver esa estructura de cerca para admirar su historia y arquitectura, un sueño muy raro para alguien dedicado
+                                    a la tecnología pero quien sabe talvez un antropologo frustrado.
+                                </p>
+
+                            </div>
+                        </section>
+                        <footer class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="icon_prefix" type="text" class="validate">
+                                        <label for="icon_prefix">Nombre</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="icon_email" type="email" class="validate">
+                                        <label for="icon_email">Correo Electrónico</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s10">
+                                        <i class="material-icons prefix">comment</i>
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">Comentario</label>
+                                    </div>
+                                    <div class="col s2 center-align">
+                                        <a class="btn-floating btn-large waves-effect waves-light brown lighten-3"><i class="material-icons">add</i></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="col s12 m4 l3">
+                <aside class="card">
+                    <div class="center-align" style="padding:2rem;">
+                        <img class="circle responsive-img" style="width:100%;" src="img/th2.jpg" alt="Orlando J Betancourth">
+                    </div>
+                    <div class="card-content center-align">
+                        <span class="card-title">Perfil del Autor</span>
+                        <p>Soy una persona que gusta del viaje y el conocer de nuevas culturas , costumbre y tradiciones. Uno encuentra gran riqueza y sabiduría, amplitud de visión y respeto por los demas.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
